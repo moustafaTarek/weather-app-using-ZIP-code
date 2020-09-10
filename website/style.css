@@ -1,0 +1,59 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    grid-template-columns: 500px 1em 500px;
+    grid-gap: 9px;
+    grid-template-areas: 'a b c' ;
+    background-image: url('https://img.rasset.ie/0011c991-1600.jpg');
+    color:rgb(85,107,47);
+}
+
+.firstCol{
+  grid-area: ;
+}
+.entryHolder{
+    grid-area: ;
+    text-align: center;
+    font-size: 25px;
+    color:black;
+}
+.holder{
+  text-align: center;
+}
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+}
+
+input{
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color:green;
+    display:block;
+    height: 60px;
+    width: 320px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+button{
+    width: 125px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color:rgb(85,107,47);
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border-radius:8px;
+    box-shadow: 2px 4px 5px #444;
+}
+h1{
+    font-size: 36px;
+}
+textarea{
+    color:green;
+    border-radius: 8px;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    font-family: 'Oswald', sans-serif;
+}
